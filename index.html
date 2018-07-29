@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Gestpio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+    <title>Connor Kurtz Music | Important Hair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "xml/news.xml", true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml, elementID) {
+            var posts, i, xmlDoc, txt;
+            var id, title, date, fullText;
+            xmlDoc = xml.responseXML;
+            txt = "";
+            posts = xmlDoc.getElementsByTagName("post");
+
+            for (i = 0; i < posts.length && i < 3; i++) {
+                id = posts[i].getElementsByTagName("id")[0].childNodes[0].nodeValue.trim();
+                title = posts[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.trim();
+                date = posts[i].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim();
+                shortText = posts[i].getElementsByTagName("shortText")[0].childNodes[0].nodeValue.trim();
+
+                shortText = shortText.replace(/{~/g, "<");
+                shortText = shortText.replace(/~}/g, ">");
+
+                txt +=
+                    "<article class=\"one_third";
+
+                if (i == 0) {
+                    txt += " first "
+                }
+
+                txt += "\"><time class=\"font-xs\" datetime=\"" + date + "\">" + formatDate(date) + "</time>" +
+                    "<h2 class=\"nospace font-x1 bold\">" + title + "</h2>" +
+                    "<p>" + shortText + "</p>" +
+                    "<p class=\"nospace\"><a href=\"news.html#" + id + "\">Read More &raquo;</a></p>" +
+                    "</article>";
+            }
+            document.getElementById("newsSpot").innerHTML = txt;
+        }
+
+        function formatDate(date) {
+            var monthNames = [
+                "January", "February", "March",
+                "April", "May", "June", "July",
+                "August", "September", "October",
+                "November", "December"
+            ];
+
+            var day = date.substring(8, 10);
+            var monthIndex = date.substring(5, 7);
+            var year = date.substring(0, 4);
+
+            if (day.substring(0, 1) == "0") {
+                day = day.substring(1, 2);
+            }
+
+            var postfix = "th";
+
+            if (day == "1") {
+                postfix = "st";
+            }
+            else if (day == "2") {
+                postfix = "nd";
+            }
+            else if (day == "3") {
+                postfix = "rd";
+            }
+
+            return day + "<sup>" + postfix + "</sup> " + monthNames[monthIndex - 1] + " " + year;
+        }
+    </script>
+</head>
+    <body id="top" onload="loadXMLDoc()">
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <div id="logo" class="fl_left">
+                    <h1><a href="index.html">Connor Kurtz / Important Hair</a></h1>
+                    <i class="fa fa-deaf"></i>
+                    <p>Musician / Composer / Writer</p>
+                </div>
+                <!-- ################################################################################################ -->
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="discography.html">Discography</a></li>
+                        <li><a href="scores.html">Scores</a></li>
+                        <li><a href="texts.html">Texts</a></li>
+                        <li><a href="http://connorkurtzmusic.blogspot.ca/" target="_blank">Reviews</a></li>
+                    </ul>
+                </nav>
+                <!-- ################################################################################################ -->
+            </header>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row0 bgded" style="background-image:url('images/ArtistPhoto.jpg'); background-position:center;">
+            <div id="pageintro" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <article>
+                    <div class="overlay inspace-30 btmspace-30">
+                        <p class="font-xs nospace">Welcome to the official website of...</p>
+                        <h2 class="heading">Connor Kurtz</h2>
+                        <p>
+                            Connor Kurtz is a musician, composer and writer based out of Cambridge, Ontario.
+                            He self-releases his own music under the monicker of 
+                            <i><a href="https://importanthair.bandcamp.com/" target="_blank">Important Hair</a></i>.
+                            This website contains
+                            links to all of his <a href="discography.html">musical releases</a>, 
+                            <a href="scores.html">scores</a> and <a href="texts.html">texts</a>.
+                        </p>
+                    </div>
+                </article>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row3">
+            <section class="hoc container clear">
+                <!-- ################################################################################################ -->
+                <div class="center btmspace-50">
+                    <h3 class="font-x2 nospace">Recent Updates</h3>
+                    <br />
+                    <p class="nospace">View all updates and news <a href="news.html">here</a>.</p>
+                </div>
+                <div class="group">
+                    <div id="newsSpot"></div>
+                </div>
+                <!-- ################################################################################################ -->
+            </section>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row4">
+            <footer id="footer" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <div>
+                    <h6 class="title">Contact Me</h6>
+                    <ul class="nospace linklist contact">
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:importanthair@gmail.com" target="_top">importanthair@gmail.com</a></li>
+                    </ul>
+                </div>
+                <!-- ################################################################################################ -->
+            </footer>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row5">
+            <div id="copyright" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Connor Kurtz Music</a></p>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js"></script>
+        <script src="layout/scripts/jquery.backtotop.js"></script>
+        <script src="layout/scripts/jquery.mobilemenu.js"></script>
+        <!-- IE9 Placeholder Support -->
+        <script src="layout/scripts/jquery.placeholder.min.js"></script>
+        <!-- / IE9 Placeholder Support -->
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<newsPosts>
+  <post>
+    <id>
+      post003
+    </id>
+    <title>
+      New Blog Launches
+    </title>
+    <date>
+      2018-03-13
+    </date>
+    <fullText>
+      Today, the Connor Kurtz Music Reviews blog has gone live. The first two reviews, of the two latest albums from Michael Pisaro, are available now.{~br /~}{~br /~}Chheck out the new blog here: {~a target="_blank" href="http://connorkurtzmusic.blogspot.ca/"~}http://connorkurtzmusic.blogspot.ca/{~/a~}
+    </fullText>
+    <shortText>
+      Today, the Connor Kurtz Music Reviews blog has gone live.
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post002
+    </id>
+    <title>
+      New Project: Good Old Neon
+    </title>
+    <date>
+      2017-12-19
+    </date>
+    <fullText>
+      A new project has began between brothers Connor and Owen Kurtz. The first album, {~i~}Musik kann marschieren{~/i~}, is available now on Bachelors of Science Records.{~br /~}{~br /~}Download it for free, here: {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2"~}https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2{~/a~}
+    </fullText>
+    <shortText>
+      A new project has began between brothers Connor and Owen Kurtz. The first album is available now.
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post001
+    </id>
+    <title>
+      Website Launches
+    </title>
+    <date>
+      2017-07-30
+    </date>
+    <fullText>
+      Today, the Connor Kurtz Music website was launched.
+    </fullText>
+    <shortText>
+      Today, the Connor Kurtz Music website was launched.
+    </shortText>
+  </post>
+</newsPosts>

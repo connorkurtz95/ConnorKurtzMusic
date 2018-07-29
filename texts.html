@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Gestpio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+    <title>Texts: Connor Kurtz Music | Important Hair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "xml/texts.xml", true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml, elementID) {
+            var texts, i, i2, xmlDoc, txt, c, lastYear, nextDate, twoDates, upcomingDate;
+            var id, title, date;
+            xmlDoc = xml.responseXML;
+            txt = "<table class=\"TextTable\">";
+            texts = xmlDoc.getElementsByTagName("text");
+            c = 0;
+            lastYear = "";
+
+            for (i = 0; i < texts.length; i++) {
+                c++;
+
+                id = texts[i].getElementsByTagName("id")[0].childNodes[0].nodeValue.trim();
+                title = texts[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.trim();
+                date = texts[i].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim();
+
+                nextDate = date;
+                twoDates = date;
+
+                if (i < texts.length - 1) {
+                    nextDate = texts[i + 1].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim();
+                }
+                else {
+                    nextDate = "-1";
+                }
+
+                if (i < texts.length - 2) {
+                    twoDates = texts[i + 2].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim();
+                }
+                else {
+                    twoDates = "-1";
+                }
+
+                if (lastYear == "") {
+                    lastYear = date;
+                    txt += "<tr><td>" + date + "</td>";
+                }
+                else if (lastYear != date) {
+                    while (c <= 3) {
+                        txt += "<td></td>";
+                        c++;
+                    }
+
+                    txt += "</tr><tr><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr><td>" + date + "</td>";
+
+                    lastYear = date;
+
+                    upcomingDate = 0;
+
+                    for (i2 = i + 1; i2 < texts.length; i2++) {
+                        if (nextDate != texts[i2].getElementsByTagName("date")[0].childNodes[0].nodeValue.trim()) {
+                            upcomingDate = i2 - i;
+                            i2 = texts.length;
+                        }
+                    }
+
+                    if (upcomingDate == 0) {
+                        upcomingDate = texts.length - i;
+                    }
+
+                    c = 1;
+
+                    if (upcomingDate != 0) {
+                        if (upcomingDate % 3 == 1) {
+                            txt += "<td></td><td></td>"
+                            c = 3;
+                        }
+                        else if (upcomingDate % 3 == 2) {
+                            txt += "<td></td>";
+                            c = 2;
+                        }
+                    }
+                }
+
+                if (nextDate != date && c == 1) {
+                    txt += "<td></td><td></td>";
+                    c = 3;
+                }
+
+                if (twoDates != date && c == 1) {
+                    txt += "<td></td>";
+                    c = 2;
+                }
+
+                txt += "<td class=\"texttd\"><a href=\"files/" + id + ".pdf\" target=\"_blank\">" + id + " - " + title + "</a></td>";
+
+                if (c >= 3 && nextDate == date) {
+                    txt += "</tr>" +
+                        "<tr><td></td><td><hr /></td><td><hr /></td><td><hr /></td></tr>" +
+                        "<tr><td></td>";
+
+                    c = 0;
+                }
+            }
+
+            txt += "<tr><td width= \"10%\"></td><td width=\"30%\"></td><td width=\"30%\"></td><td width=\"30%\"></td></tr></table>"
+
+            document.getElementById("tables").innerHTML = txt;
+        }
+    </script>
+</head>
+    <body id="top" onload="loadXMLDoc()">
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <div id="logo" class="fl_left">
+                    <h1><a href="index.html">Connor Kurtz / Important Hair</a></h1>
+                    <i class="fa fa-deaf"></i>
+                    <p>Musician / Composer / Writer</p>
+                </div>
+                <!-- ################################################################################################ -->
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="discography.html">Discography</a></li>
+                        <li><a href="scores.html">Scores</a></li>
+                        <li class="active"><a href="texts.html">Texts</a></li>
+                        <li><a href="http://connorkurtzmusic.blogspot.ca/" target="_blank">Reviews</a></li>
+                    </ul>
+                </nav>
+                <!-- ################################################################################################ -->
+            </header>
+        </div>
+        <div class="wrapper row3">
+            <main class="hoc container clear"> 
+                <div class="center btmspace-50">
+                    <h3 class="font-x2 nospace">Texts</h3>
+                    <br />
+                    <p class="nospace">
+                        This page contains several texts of different types written by Connor Kurtz, all of which are available
+                        as free downloads.
+                    </p>
+                    <br />
+                    <div id="tables"></div>
+                </div>
+
+                <!-- main body -->
+                <!-- ################################################################################################ -->
+                
+                <!-- ################################################################################################ -->
+                <!-- / main body -->
+                <div class="clear"></div>
+            </main>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row4">
+            <footer id="footer" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <div>
+                    <h6 class="title">Contact Me</h6>
+                    <ul class="nospace linklist contact">
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:importanthair@gmail.com" target="_top">importanthair@gmail.com</a></li>
+                    </ul>
+                </div>
+                <!-- ################################################################################################ -->
+            </footer>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row5">
+            <div id="copyright" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Connor Kurtz Music</a></p>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js"></script>
+        <script src="layout/scripts/jquery.backtotop.js"></script>
+        <script src="layout/scripts/jquery.mobilemenu.js"></script>
+        <!-- IE9 Placeholder Support -->
+        <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+    </body>
+</html>
+
+<!--http://www.free-css.com/free-css-templates/page214/gestpio-->

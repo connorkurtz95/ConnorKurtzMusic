@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Gestpio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+    <title>Scores: Connor Kurtz Music | Important Hair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "xml/scores.xml", true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml, elementID) {
+            var scores, i, i2, xmlDoc, txt;
+            var id, title, instrumentation, date, duration, information, downloads, downloadsText, extension, description;
+            xmlDoc = xml.responseXML;
+            txt = "";
+            scores = xmlDoc.getElementsByTagName("score");
+            for (i = 0; i < scores.length; i++) {
+                //txt += x[i].childNodes[0].nodeValue + "<br>";
+                id = scores[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+                title = scores[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                instrumentation = scores[i].getElementsByTagName("instrumentation")[0].childNodes[0].nodeValue;
+                date = scores[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+                duration = scores[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
+                information = scores[i].getElementsByTagName("information")[0].childNodes[0].nodeValue;
+                
+                information = information.replace(/{~/g, "<");
+                information = information.replace(/~}/g, ">");
+
+                downloads = scores[i].getElementsByTagName("download");
+                downloadsText = "";
+
+                for (i2 = 0; i2 < downloads.length; i2++) {
+                    extension = downloads[i2].getElementsByTagName("extension")[0].childNodes[0].nodeValue;
+                    description = downloads[i2].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+
+                    if (i2 > 0) {
+                        downloadsText += "<br />";
+                    }
+
+                    downloadsText += "<a href= \"files/" + id.trim() + "." + extension.trim() + "\" target =\"_blank\">" + id.trim() + "." + extension.trim() + "</a>" + description
+                }
+
+                txt +=
+                    "<table>" +
+                    "<tr>" +
+                    "<td width=\"40%\" style=\"background-color:#FFFFFF\">" +
+                    "<div class=\"center\" style=\"padding-top:20px\">" +
+                    "<h3 class=\"font-x2 nospace\">" + id + "</h3>" +
+                    "<h3 class=\"font-x2 nospace\" style=\"padding-top: 10px;\">" + title + "</h3>" +
+                    "<p style=\"padding-top:10px;\">" + date + "</p>" +
+                    "<p>" + instrumentation + "</p>" +
+                    "<p>" + duration + "</p>" +
+                    "</div>" +
+                    "</td>" +
+                    "<td width=\"60%\" style=\"background-color:#FFFFFF\">" +
+                    "<h4>Information</h4>" +
+                    "<p>" + information + "</p>" +
+                    "<hr style=\"height:10px; visibility:hidden;\" /><hr /><hr style=\"height:10px; visibility:hidden;\" />" +
+                    "<h4>Download</h4>" +
+                    "<p>" + downloadsText + "</p>" +
+                    "</td>" +
+                    "</tr>" +
+                    "</table>";
+            }
+
+            document.getElementById("tables").innerHTML = txt;
+        }
+    </script>
+</head>
+    <body id="top" onload="loadXMLDoc()">
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <div id="logo" class="fl_left">
+                    <h1><a href="index.html">Connor Kurtz / Important Hair</a></h1>
+                    <i class="fa fa-deaf"></i>
+                    <p>Musician / Composer / Writer</p>
+                </div>
+                <!-- ################################################################################################ -->
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="discography.html">Discography</a></li>
+                        <li class="active"><a href="scores.html">Scores</a></li>
+                        <li><a href="texts.html">Texts</a></li>
+                        <li><a href="http://connorkurtzmusic.blogspot.ca/" target="_blank">Reviews</a></li>
+                    </ul>
+                </nav>
+                <!-- ################################################################################################ -->
+            </header>
+        </div>
+        <div class="wrapper row3">
+            <main class="hoc container clear">
+                <div class="center btmspace-50">
+                    <h3 class="font-x2 nospace">Scores</h3>
+                    <br />
+                    <p class="nospace">
+                        All scores written by Connor Kurtz are available for free download from this page.
+                        For any questions about scores, please send an email to
+                        <a href="mailto:importanthair@gmail.com">importanthair@gmail.com</a>.
+                    </p>
+                </div>
+
+                <div id="tables"></div>
+                <!-- main body -->
+                <!-- ################################################################################################ -->
+                <!-- ################################################################################################ -->
+                <!-- / main body -->
+                <div class="clear"></div>
+            </main>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row4">
+            <footer id="footer" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <div>
+                    <h6 class="title">Contact Me</h6>
+                    <ul class="nospace linklist contact">
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:importanthair@gmail.com" target="_top">importanthair@gmail.com</a></li>
+                    </ul>
+                </div>
+                <!-- ################################################################################################ -->
+            </footer>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row5">
+            <div id="copyright" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Connor Kurtz Music</a></p>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js"></script>
+        <script src="layout/scripts/jquery.backtotop.js"></script>
+        <script src="layout/scripts/jquery.mobilemenu.js"></script>
+        <!-- IE9 Placeholder Support -->
+        <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+    </body>
+</html>
+
+<!--http://www.free-css.com/free-css-templates/page214/gestpio-->
