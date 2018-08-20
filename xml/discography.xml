@@ -253,6 +253,35 @@
     <releases>
       <release>
         <id>
+          compilation03
+        </id>
+        <title>
+          War Is Peace, Freedom Is Slavery, Ignorance Is Strength
+        </title>
+        <artist>
+          Acialist
+        </artist>
+        <date>
+          2018-08-20
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}War Is Peace, Freedom Is Slavery, Ignorance Is Strength{~/i~} is an album by Texas-based electronic musician Acialist. It contains four short interlude tracks which were created by Important Hair.{~br /~}{~br /~}It is available for free download here: {~a target="_blank" href="https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength"~}https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength{~/a~}
+        </description>
+        <link>
+          https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength
+        </link>
+        <creativeCommons>
+
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           compilation02
         </id>
         <title>

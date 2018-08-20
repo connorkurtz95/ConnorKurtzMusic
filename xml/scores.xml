@@ -2,6 +2,36 @@
 <scores>
   <score>
     <id>
+      S017
+    </id>
+    <title>
+      I stared at an entire screen full of these words and they dissolved and lost their meaning...
+    </title>
+    <instrumentation>
+      for four instruments
+    </instrumentation>
+    <date>
+      2018
+    </date>
+    <duration>
+      unspecified duration
+    </duration>
+    <information>
+      {~i~}I stared at an entire screen full of these words and they dissolved and lost their meaning{~/i~} is a notated score written for four performers who will exchange notes within a minor triad, creating a constant drone which will change in timbre but not pitch.
+    </information>
+    <downloads>
+      <download>
+        <extension>
+          pdf
+        </extension>
+        <description>
+
+        </description>
+      </download>
+    </downloads>
+  </score>
+  <score>
+    <id>
       S016
     </id>
     <title>
@@ -17,7 +47,7 @@
       unspecified duration
     </duration>
     <information>
-      {~i~}Another Mirror{~/i~} is a score written for four performers who will only play a low, medium and high C. Duration of notes should vary and be decided live by the performers.
+      {~i~}Another Mirror{~/i~} is a notated score written for four performers who will only play a low, medium and high C. Duration of notes should vary and be decided live by the performers.
     </information>
     <downloads>
       <download>
