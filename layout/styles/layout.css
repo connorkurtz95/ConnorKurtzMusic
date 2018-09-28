@@ -27,6 +27,14 @@ File: Layout CSS
     background-color: #FBFBFB !important;
 }
 
+.width50 {
+    width: 50%;
+}
+
+.discoTables {
+    table-layout: fixed;
+}
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
