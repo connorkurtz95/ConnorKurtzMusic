@@ -7,6 +7,35 @@
     <releases>
       <release>
         <id>
+          B07
+        </id>
+        <title>
+          G. GOULD
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2018-09-29
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}G. GOULD{~/i~} is a 45 minute composition based on a single field recording with sparse manipulations and collaging. It is a reaction to and partial recreation of James Benning's recent film 'L. COHEN', as well as a reaction to the impact that artists like Leonard Cohen and Glenn Gould have had on Canadian culture. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/g-gould"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/g-gould
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           B06
         </id>
         <title>
