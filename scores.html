@@ -13,6 +13,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon-deaf.ico" />
     <script>
         function loadXMLDoc() {
             var xmlhttp = new XMLHttpRequest();
@@ -39,7 +40,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 date = scores[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
                 duration = scores[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
                 information = scores[i].getElementsByTagName("information")[0].childNodes[0].nodeValue;
-                
+
                 information = information.replace(/{~/g, "<");
                 information = information.replace(/~}/g, ">");
 
