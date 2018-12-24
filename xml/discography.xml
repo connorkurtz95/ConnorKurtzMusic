@@ -217,6 +217,35 @@
     <releases>
       <release>
         <id>
+          C03
+        </id>
+        <title>
+          Miscellaneous Works, 2018
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2018-12-24
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Miscellaneous Works, 2018{~/i~} collects several electronic compositions made throughout the year of 2018.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2018"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/miscellaneous-works-2018
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           C02
         </id>
         <title>

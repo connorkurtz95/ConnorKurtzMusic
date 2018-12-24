@@ -35,9 +35,47 @@ File: Layout CSS
     table-layout: fixed;
 }
 
+.filmBlock {
+    max-width: none;
+    height: 100%;
+    width: 177%;
+    position: absolute;
+    left: 0;
+    background: url(../../images/F001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.filmBlockContainer {
+    position: relative;
+    width: 56.25%;
+    padding-bottom: 56.25%;
+    float: left;
+    height: 0;
+}
+
+.filmBlockText {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #FBFBFB;
+    text-shadow: 1px 1px black;
+}
+
+.filmTable {
+    min-height: 500px;
+}
 /* Rows
+    
+  <div id="backdrop" style="z-index: 1; position: absolute; top: 0px; left: 0px;"><img alt="" src='/backdrop.png' /></div>
+  <div id="curtain" style="z-index: 2; position: absolute; top: 0px; left: 0px; background-image:url(/curtain.png);background-position:100px 200px; height:250px; width:500px;">&nbsp;</div>
 --------------------------------------------------------------------------------------------------------------- */
-.row0, .row0 a{}
+.row0, .row0 a {
+}
 .row1, .row1 a{}
 .row2, .row2 a{}
 .row3, .row3 a{}

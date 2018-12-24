@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Gestpio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+    <title>Films: Connor Kurtz Music | Important Hair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "xml/films.xml", true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml, elementID) {
+            var scores, i, i2, xmlDoc, txt;
+            var id, title, date, duration, decription, link;
+            xmlDoc = xml.responseXML;
+            txt = "";
+            scores = xmlDoc.getElementsByTagName("film");
+            for (i = 0; i < scores.length; i++) {
+                console.log(i);
+                //txt += x[i].childNodes[0].nodeValue + "<br>";
+                id = scores[i].getElementsByTagName("id")[0].childNodes[0].nodeValue.trim();
+                title = scores[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                date = scores[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+                duration = scores[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
+                description = scores[i].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+                link = scores[i].getElementsByTagName("link")[0].childNodes[0].nodeValue;
+
+                description = description.replace(/{~/g, "<");
+                description = description.replace(/~}/g, ">");
+
+                txt +=
+                    "<table class=\"filmTable\">" +
+                    "<tr>" +
+                    "<td style=\"background-color:#FFFFFF; min-width:300px\">" +
+                    "<div class=\"filmBlockContainer filmTable\">" +
+                    "<div class=\"filmBlock\">" +
+                    "<div class=\"center filmBlockText\">" +
+                    "<h3>" + id + "</h3>" +
+                    "<br/>" +
+                    "<h3 class=\"font-x2 nospace\" style=\"padding-top: 10px;\">" + title + "</h3>" +
+                    "<br/>" +
+                    "<p>" + date + "</p>" +
+                    "<p>" + duration + "</p>" +
+                    "<br/>" +
+                    "<p>" + description + "</p>" +
+                    "<p><a href=\"" + link + "\">" + link + "</a></p>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>" +
+                    "</td>" +
+                    "</tr>" +
+                    "</table>";
+            }
+
+            document.getElementById("tables").innerHTML = txt;
+        }
+    </script>
+</head>
+<body id="top" onload="loadXMLDoc()">
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+            <div id="logo" class="fl_left">
+                <h1><a href="index.html">Connor Kurtz / Important Hair</a></h1>
+                <i class="fa fa-deaf"></i>
+                <p>Musician / Composer / Writer</p>
+            </div>
+            <nav id="mainav" class="fl_right">
+                <ul class="clear">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="discography.html">Discography</a></li>
+                    <li class="active"><a href="films.html">Films</a></li>
+                    <li><a href="scores.html">Scores</a></li>
+                    <li><a href="texts.html">Texts</a></li>
+                    <li><a href="http://connorkurtzmusic.blogspot.ca/" target="_blank">Reviews</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="wrapper row3">
+        <main class="hoc container clear">
+            <div class="center btmspace-50">
+                <h3 class="font-x2 nospace">Films</h3>
+                <br />
+                <p class="nospace">
+                    This page contains a list of all film works by Connor Kurtz.
+                </p>
+            </div>
+
+            <div id="tables"></div>
+            <div class="clear"></div>
+        </main>
+    </div>
+    <div class="wrapper row4">
+        <footer id="footer" class="hoc clear">
+            <div>
+                <h6 class="title">Contact Me</h6>
+                <ul class="nospace linklist contact">
+                    <li><i class="fa fa-envelope-o"></i><a href="mailto:importanthair@gmail.com" target="_top">importanthair@gmail.com</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div class="wrapper row5">
+        <div id="copyright" class="hoc clear">
+            <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Connor Kurtz Music</a></p>
+        </div>
+    </div>
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <!-- JAVASCRIPTS -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <!-- IE9 Placeholder Support -->
+    <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+</body>
+</html>
+
+<!--http://www.free-css.com/free-css-templates/page214/gestpio-->
