@@ -2,6 +2,26 @@
 <filmography>
   <film>
     <id>
+      F002
+    </id>
+    <title>
+      Vehicles in Transit
+    </title>
+    <date>
+      2019
+    </date>
+    <duration>
+      12:25
+    </duration>
+    <description>
+      A short film which uses vehicles and commuters to show the progress of a South Ontario winter. Available for free on Vimeo.
+    </description>
+    <link>
+      https://vimeo.com/330991240
+    </link>
+  </film>
+  <film>
+    <id>
       F001
     </id>
     <title>

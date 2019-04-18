@@ -41,10 +41,6 @@ File: Layout CSS
     width: 177%;
     position: absolute;
     left: 0;
-    background: url(../../images/F001.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .filmBlockContainer {
@@ -63,7 +59,7 @@ File: Layout CSS
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #FBFBFB;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .filmTable {
