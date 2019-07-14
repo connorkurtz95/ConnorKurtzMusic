@@ -2,6 +2,26 @@
 <filmography>
   <film>
     <id>
+      F003
+    </id>
+    <title>
+      A Digital Triptych
+    </title>
+    <date>
+      2019
+    </date>
+    <duration>
+      31:05
+    </duration>
+    <description>
+      Three nine-minute films which use structured computer algorithms to create their images. Available for free as an HQ download or on Vimeo.
+    </description>
+    <link>
+      https://vimeo.com/346842821
+    </link>
+  </film>
+  <film>
+    <id>
       F002
     </id>
     <title>
