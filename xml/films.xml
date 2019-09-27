@@ -2,6 +2,26 @@
 <filmography>
   <film>
     <id>
+      F004
+    </id>
+    <title>
+      Appearing
+    </title>
+    <date>
+      2019
+    </date>
+    <duration>
+      25:34
+    </duration>
+    <description>
+      A short film which deals with the appearance and disappearance of images. Available for free on Vimeo.
+    </description>
+    <link>
+      https://vimeo.com/362465283
+    </link>
+  </film>
+  <film>
+    <id>
       F003
     </id>
     <title>
