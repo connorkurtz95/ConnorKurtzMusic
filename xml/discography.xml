@@ -7,6 +7,35 @@
     <releases>
       <release>
         <id>
+          B10
+        </id>
+        <title>
+          Nine Feedbacks
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2019-11-10
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Nine Feedbacks{~/i~} is a 190-minute drone composition which flows through nine recordings of untouched electronic feedback in a randomized order. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/nine-feedbacks"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/nine-feedbacks
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           B09
         </id>
         <title>
