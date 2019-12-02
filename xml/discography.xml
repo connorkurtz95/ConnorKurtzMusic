@@ -398,6 +398,35 @@
     <releases>
       <release>
         <id>
+          compilation04
+        </id>
+        <title>
+          the fencepost reclamation project volume 6
+        </title>
+        <artist>
+          Various Artists
+        </artist>
+        <date>
+          2019-12-01
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}the fencepost reclamation project volume 6{~/i~} is the sixth volume of a remix compilation by the British {~1 label. It contains a noise piece titled {~i~}creak17 v2{~/i~} by Important Hair.{~br /~}{~br /~}It is available for free download here: {~a target="_blank" href="https://lessthanone.bandcamp.com/album/the-fencepost-reclamation-project-volume-6-2"~}https://lessthanone.bandcamp.com/album/the-fencepost-reclamation-project-volume-6-2{~/a~}
+        </description>
+        <link>
+          https://lessthanone.bandcamp.com/album/the-fencepost-reclamation-project-volume-6-2
+        </link>
+        <creativeCommons>
+          by
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           compilation03
         </id>
         <title>
@@ -416,10 +445,10 @@
           Digital
         </format>
         <description>
-          {~i~}War Is Peace, Freedom Is Slavery, Ignorance Is Strength{~/i~} is an album by Texas-based electronic musician Acialist. It contains four short interlude tracks which were created by Important Hair.{~br /~}{~br /~}It is available for free download here: {~a target="_blank" href="https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength"~}https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength{~/a~}
+          {~i~}War Is Peace, Freedom Is Slavery, Ignorance Is Strength{~/i~} is an album by Texas-based electronic musician Acialist. It contains four short interlude tracks which were created by Important Hair.{~br /~}{~br /~}It is no longer available for download.
         </description>
         <link>
-          https://acialisms.bandcamp.com/album/war-is-peace-freedom-is-slavery-ignorance-is-strength
+          
         </link>
         <creativeCommons>
 

@@ -59,6 +59,15 @@ Licence URI: http://www.os-templates.com/template-terms
                     if (creativeCommons == "by-nc") {
                         creativeCommons = "<br/><br/><a target=\"_blank\" rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc/4.0/88x31.png\" /></a><br />This work is licensed under a <a target=\"_blank\" rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International License</a>.";
                     }
+                    else if(creativeCommons == "by") {
+                        creativeCommons = "<br/><br/><a target=\"_blank\" rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br />This work is licensed under a <a target=\"_blank\" rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution 4.0 International License</a>.";
+                    }
+
+                    if (link == "") {
+                        link = "<img src =\"images/" + id + ".png\" />";
+                    } else {
+                        link = "<a target = \"_blank\" href = \"" + link + "\"><img src =\"images/" + id + ".png\" /></a>";
+                    }
 
                     txt +=
                         "<table id=\"" + id + "\" class=\"discoTables\">" +
@@ -78,7 +87,7 @@ Licence URI: http://www.os-templates.com/template-terms
                         "<p class=\"nospace\">" + description + creativeCommons + "</p>" +
                         "</td>" +
                         "<td class =\"width50\">" +
-                        "<a target = \"_blank\" href = \"" + link + "\"><img src =\"images/" + id + ".png\" /></a>" +
+                        link +
                         "</td>" +
                         "</tr>" +
                         "</table>";
