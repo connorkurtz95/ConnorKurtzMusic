@@ -2,6 +2,36 @@
 <scores>
   <score>
     <id>
+      S018
+    </id>
+    <title>
+      Music for A Digital Triptych
+    </title>
+    <instrumentation>
+      for two keyboards
+    </instrumentation>
+    <date>
+      2019
+    </date>
+    <duration>
+      30 minutes
+    </duration>
+    <information>
+      {~i~}Music for A Digital Triptych{~/i~} is a text score which describes nine brief movements to be played on two keyboards.{~br /~}{~br /~}It has been realized on the soundtrack of {~a href="films.html#F003"~}F003{~/a~}.
+    </information>
+    <downloads>
+      <download>
+        <extension>
+          pdf
+        </extension>
+        <description>
+
+        </description>
+      </download>
+    </downloads>
+  </score>
+  <score>
+    <id>
       S017
     </id>
     <title>

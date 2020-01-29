@@ -7,6 +7,35 @@
     <releases>
       <release>
         <id>
+          B11
+        </id>
+        <title>
+          Frozen Tower of Sound
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2019-01-27
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Frozen Tower of Sound{~/i~} is a 60-minute electronic composition constructed of several layered digital textures to create the sensation of a fictional, electronic landscape.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/frozen-tower-of-sound"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/frozen-tower-of-sound
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           B10
         </id>
         <title>
@@ -83,7 +112,7 @@
           Digital
         </format>
         <description>
-          {~i~}You Had Better Come on Home{~/i~} is a single hour-long piece comprised of processed field recordings, sine tones and some white noise. It develops an electronic drone and invites it to act as an electronic guide on a journey to, from or through one's home (be that a place, state or something else). {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://rateyourmusic.com/release/album/important-hair/you-had-better-come-on-home/"~}Important Hair bandcamp{~/a~}.
+          {~i~}You Had Better Come on Home{~/i~} is a single hour-long piece comprised of processed field recordings, sine tones and white noise. It develops an electronic drone and invites it to act as an electronic guide on a journey to, from or through one's home (be that a place, state of mind or something else). {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://rateyourmusic.com/release/album/important-hair/you-had-better-come-on-home/"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/you-had-better-come-on-home
@@ -112,7 +141,7 @@
           Digital
         </format>
         <description>
-          {~i~}G. GOULD{~/i~} is a 45 minute composition based on a single field recording with sparse manipulations and collaging. It is a reaction to and partial recreation of James Benning's recent film 'L. COHEN', as well as a reaction to the impact that artists like Leonard Cohen and Glenn Gould have had on Canadian culture. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/g-gould"~}Important Hair bandcamp{~/a~}.
+          {~i~}G. GOULD{~/i~} is a 45-minute composition based on a single field recording with sparse manipulations and collaging. It is a reaction to and partial recreation of James Benning's recent film {~i~}L. COHEN{~/i~}, as well as a reaction to the impact that artists like Leonard Cohen and Glenn Gould have had on Canadian culture. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/g-gould"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/g-gould
@@ -141,7 +170,7 @@
           Digital
         </format>
         <description>
-          {~i~}180510.180528.180602.{~/i~} is a 60 minute reductionist electronic composition which focuses on the mutation of filtered textures over time.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/180510180528180602"~}Important Hair bandcamp{~/a~}.
+          {~i~}180510.180528.180602.{~/i~} is a 60-minute reductionist electronic composition which focuses on the mutation of filtered textures over time.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/180510180528180602"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/180510180528180602
@@ -170,7 +199,7 @@
           Digital
         </format>
         <description>
-          {~i~}Plein Soleil{~/i~} is a single 69 minute electronic composition, constructed exclusively from sounds extracted from the song of the same name by world's end girlfriend.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}Important Hair bandcamp{~/a~}.
+          {~i~}Plein Soleil{~/i~} is a single 69-minute electronic composition, constructed exclusively from sounds extracted from the song of the same name by world's end girlfriend.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/plein-soleil
@@ -199,7 +228,7 @@
           Digital
         </format>
         <description>
-          {~i~}Musik kann marschieren{~/i~} is the debut release by Good Old Neon, the collaborative project by brothers Connor and Owen Kurtz. It is a single 56 minute electronic improvisation, combined with a field recording collage created by each member.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2"~}Wisteria Records bandcamp{~/a~}.
+          {~i~}Musik kann marschieren{~/i~} is the debut release by Good Old Neon, the collaborative project by brothers Connor and Owen Kurtz. It is a single 56-minute electronic improvisation combined with a field recording collage created by each member.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2"~}Wisteria Records bandcamp{~/a~}.
         </description>
         <link>
           https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2
@@ -228,7 +257,7 @@
           Digital
         </format>
         <description>
-          {~i~}Lines 1 &amp; 2{~/i~} includes the first two realizations of Lines, a randomized situation for sound collage, each taking their own disc. The {~i~}Lines{~/i~} system ensures a constant shift of sonic density in the realization, as well as making it so the realization is completely circular, having no beginning or ending. The first realization uses electronic noise, and the second uses everyday recordings.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/lines-1-2"~}Important Hair bandcamp{~/a~}.
+          {~i~}Lines 1 &amp; 2{~/i~} includes the first two realizations of Lines, a randomized situation for sound collage, each taking its own disc. The {~i~}Lines{~/i~} system ensures a constant shift of sonic density in the realization, as well as making it so the realization is completely circular, having no beginning or ending. The first realization uses electronic noise and the second uses everyday recordings.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/lines-1-2"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/lines-1-2
@@ -257,7 +286,7 @@
           Digital
         </format>
         <description>
-          {~i~}First Snow{~/i~} is the first double album by Important Hair and the debut release of compositions by Connor Kurtz. It includes {~i~}First Snow{~/i~} an analogue synthesizer piece which is realized in an hour-long solo edit and a 20 minute trio edit, {~i~}9 Movements{~/i~}, a minimalist work for electric keyboard, {~i~}For On Kawara{~/i~}, a tribute for the conceptual minimalist performed on three live sources of static and {~i~}The Death of John Cage{~/i~}, an original poem which becomes the basis of a sound collage.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/first-snow"~}Important Hair bandcamp{~/a~}.
+          {~i~}First Snow{~/i~} is the first double album by Important Hair and the debut release of compositions by Connor Kurtz. It includes {~i~}First Snow{~/i~}, an analogue synthesizer piece which is realized in an hour-long solo edit and a 20-minute trio edit, {~i~}9 Movements{~/i~}, a minimalist work for electronic keyboard, {~i~}For On Kawara{~/i~}, a tribute to the conceptual minimalist performed on three live sources of static, and {~i~}The Death of John Cage{~/i~}, an original poem which becomes the basis of a sound collage.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/first-snow"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/first-snow
@@ -286,7 +315,7 @@
           Digital
         </format>
         <description>
-          {~i~}You Are Crying, My Child{~/i~} is the debut release of Connor Kurtz's Important Hair project. It is a venture into the more experimental side of analog electronic noise. The album is partially written, partially improvised and partially collaged, using lyrics extracted from Samuel Beckett 1938 novel {~i~}Murphy{~/i~}{~br /~}{~br /~} The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/you-are-crying-my-child"~}Important Hair bandcamp{~/a~}.
+          {~i~}You Are Crying, My Child{~/i~} is the debut release of Connor Kurtz's Important Hair project. It is a venture into the more experimental side of analog electronic noise. The album is partially written, partially improvised and partially collaged, using lyrics extracted from Samuel Beckett's 1938 novel {~i~}Murphy{~/i~}{~br /~}{~br /~} The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/you-are-crying-my-child"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/you-are-crying-my-child
@@ -302,6 +331,35 @@
       C Series
     </title>
     <releases>
+      <release>
+        <id>
+          C04
+        </id>
+        <title>
+          Miscellaneous Works, 2019
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2019-12-31
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Miscellaneous Works, 2019{~/i~} collects several electronic compositions made throughout the year of 2019.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2019"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/miscellaneous-works-2019
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
       <release>
         <id>
           C03
@@ -410,7 +468,7 @@
           2019-12-01
         </date>
         <label>
-          Self-Released
+          &lt;1
         </label>
         <format>
           Digital
