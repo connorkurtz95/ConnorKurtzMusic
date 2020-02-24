@@ -7,7 +7,36 @@
     <releases>
       <release>
         <id>
-          B11
+          B13
+        </id>
+        <title>
+          Iodine
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-02-24
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Iodine{~/i~} is a series of 100 short, sequentiel pieces which flow between various styles of experimental electronic music.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/iodine"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/iodine
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
+          B12
         </id>
         <title>
           Frozen Tower of Sound
@@ -36,7 +65,7 @@
       </release>
       <release>
         <id>
-          B10
+          B11
         </id>
         <title>
           Nine Feedbacks
@@ -65,7 +94,7 @@
       </release>
       <release>
         <id>
-          B09
+          B10
         </id>
         <title>
           Organ Memories
@@ -94,7 +123,7 @@
       </release>
       <release>
         <id>
-          B08
+          B09
         </id>
         <title>
           You Had Better Come on Home
