@@ -7,6 +7,35 @@
     <releases>
       <release>
         <id>
+          B14
+        </id>
+        <title>
+          Piet Mondrian
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-03-17
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Piet Mondrian{~/i~} is the first entry in a trilogy of electroacoustic compositions dedicated to visual artists.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/piet-mondrian"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/piet-mondrian
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           B13
         </id>
         <title>
@@ -228,7 +257,7 @@
           Digital
         </format>
         <description>
-          {~i~}Plein Soleil{~/i~} is a single 69-minute electronic composition, constructed exclusively from sounds extracted from the song of the same name by world's end girlfriend.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}Important Hair bandcamp{~/a~}.
+          {~i~}Plein Soleil{~/i~} is a 69-minute electronic composition, constructed exclusively from sounds extracted from the song of the same name by world's end girlfriend.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}Important Hair bandcamp{~/a~}.
         </description>
         <link>
           https://importanthair.bandcamp.com/album/plein-soleil
