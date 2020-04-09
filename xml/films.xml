@@ -2,6 +2,26 @@
 <filmography>
   <film>
     <id>
+      F005
+    </id>
+    <title>
+      Fish &amp; Soos
+    </title>
+    <date>
+      2020
+    </date>
+    <duration>
+      16:40
+    </duration>
+    <description>
+      A collaborative film by Connor Kurtz and Jesus Perez which documents an eight week video exchange. Available for free on Vimeo.
+    </description>
+    <link>
+      https://vimeo.com/403931481
+    </link>
+  </film>
+  <film>
+    <id>
       F004
     </id>
     <title>
