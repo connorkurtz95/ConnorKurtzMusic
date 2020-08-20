@@ -2,6 +2,26 @@
 <filmography>
   <film>
     <id>
+      F006
+    </id>
+    <title>
+      The Exhibition Shaded Into a Vast Amusement Park
+    </title>
+    <date>
+      2020
+    </date>
+    <duration>
+      6:50
+    </duration>
+    <description>
+      A short film in which abstract imagery is paired with a story about a singer. Available for free on Vimeo.
+    </description>
+    <link>
+      https://vimeo.com/413802700
+    </link>
+  </film>
+  <film>
+    <id>
       F005
     </id>
     <title>
