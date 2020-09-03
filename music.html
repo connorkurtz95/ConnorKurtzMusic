@@ -35,6 +35,8 @@ Licence URI: http://www.os-templates.com/template-terms
             xmlDoc = xml.responseXML;
             txt = "";
 
+            var screenWidth = window.screen.width;
+
             discography = xmlDoc.getElementsByTagName("series");
             for (i = 0; i < discography.length; i++) {
                 title = discography[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.trim();
@@ -70,28 +72,55 @@ Licence URI: http://www.os-templates.com/template-terms
                         link = "<a target = \"_blank\" href = \"" + link + "\"><img src =\"images/" + id + ".png\" /></a>";
                     }
 
-                    txt +=
-                        "<table id=\"" + id + "\" class=\"discoTables\">" +
-                        "<tr>" +
-                        "<td class =\"width50\">" +
-                        "<br />" +
-                        "<h6 class=\"font-x1\">" +
-                        "<b>" + discTitle + "</b>" +
-                        "<br /><br />" + artist + "<br />";
+                    if (screenWidth < 1000) {
+                        txt +=
+                            "<table id=\"" + id + "\" class=\"discoTables\">" +
+                            "<tr>" +
+                            "<td>" +
+                            link +
+                            "</td>" +
+                            "</tr>" +
+                            "<tr>" +
+                            "<td class =\"width50\">" +
+                            "<br />" +
+                            "<h6 class=\"font-x1\">" +
+                            "<b>" + discTitle + "</b>" +
+                            "<br /><br />" + artist + "<br />";
 
-                    if (title != "Compilations") {
-                        txt += id + "<br />"
+                        if (title != "Compilations") {
+                            txt += id + "<br />"
+                        }
+
+                        txt += date + "<br />" + label + ", " + format +
+                            "</h6>" +
+                            "<p class=\"nospace\">" + description + creativeCommons + "</p>" +
+                            "</td>" +
+                            "</tr>" +
+                            "</table>";
+                    } else {
+                        txt +=
+                            "<table id=\"" + id + "\" class=\"discoTables\">" +
+                            "<tr>" +
+                            "<td class =\"width50\">" +
+                            "<br />" +
+                            "<h6 class=\"font-x1\">" +
+                            "<b>" + discTitle + "</b>" +
+                            "<br /><br />" + artist + "<br />";
+
+                        if (title != "Compilations") {
+                            txt += id + "<br />"
+                        }
+
+                        txt += date + "<br />" + label + ", " + format +
+                            "</h6>" +
+                            "<p class=\"nospace\">" + description + creativeCommons + "</p>" +
+                            "</td>" +
+                            "<td class =\"width50\">" +
+                            link +
+                            "</td>" +
+                            "</tr>" +
+                            "</table>";
                     }
-
-                    txt += date + "<br />" + label + ", " + format +
-                        "</h6>" +
-                        "<p class=\"nospace\">" + description + creativeCommons + "</p>" +
-                        "</td>" +
-                        "<td class =\"width50\">" +
-                        link +
-                        "</td>" +
-                        "</tr>" +
-                        "</table>";
                 }
 
                 if (title == "B Series") {
