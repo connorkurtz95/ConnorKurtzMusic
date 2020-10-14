@@ -449,6 +449,35 @@
     <releases>
       <release>
         <id>
+          C05
+        </id>
+        <title>
+          Losers
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-10-14
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Losers{~/i~} is a series of noise pieces inspired by Thomas Bernhard's novel {~i~}The Loser{~/i~} made over four years.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/losers"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/losers
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           C04
         </id>
         <title>
@@ -648,7 +677,7 @@
           Digital
         </format>
         <description>
-          {~i~}Free Improvisation February: Vol. 1{~/i~} is a 19 track compilation, which includes various styles of improvised music. It includes a 29 minute track by Important Hair.{~br /~}{~br /~}It is available for free download here: {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/free-improvisation-february-vol-1"~}https://wisteriatn.bandcamp.com/album/free-improvisation-february-vol-1{~/a~}
+          {~i~}Free Improvisation February: Vol. 1{~/i~} is a 19 track compilation, which includes various styles of improvised music. It includes a 29 minute track by Important Hair, titled {~i~}Three Electronic Improvisations (Version Two){~/i~}.{~br /~}{~br /~}It is available for free download here: {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/free-improvisation-february-vol-1"~}https://wisteriatn.bandcamp.com/album/free-improvisation-february-vol-1{~/a~}
         </description>
         <link>
           https://wisteriatn.bandcamp.com/album/free-improvisation-february-vol-1
