@@ -2,7 +2,357 @@
 <newsPosts>
   <post>
     <id>
-      post003
+      post28
+    </id>
+    <title>
+      New Compilation: Losers
+    </title>
+    <date>
+      2020-10-14
+    </date>
+    <fullText>
+      {~i~}Losers{~/i~} is a series of noise pieces inspired by Thomas Bernhard's novel {~i~}The Loser{~/i~} made over four years.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/losers"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/losers"~}https://importanthair.bandcamp.com/album/losers{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post27
+    </id>
+    <title>
+      New Podcast: After Silence
+    </title>
+    <date>
+      2020-08-26
+    </date>
+    <fullText>
+      After Silence is a new podcast by Connor Kurtz which features curated mixed of experimental music. It is available for free on Bandcamp.{~br /~}{~br /~}{~a target="_blank" href="https://aftersilencepodcast.bandcamp.com/"~}https://aftersilencepodcast.bandcamp.com/{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://aftersilencepodcast.bandcamp.com/"~}https://aftersilencepodcast.bandcamp.com{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post26
+    </id>
+    <title>
+      New Album: Barnett Newman
+    </title>
+    <date>
+      2020-05-05
+    </date>
+    <fullText>
+      {~i~}Barnett Newman{~/i~} is the final entry in a trilogy of electroacoustic compositions dedicated to visual artists.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/barnett-newman"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/barnett-newman"~}https://importanthair.bandcamp.com/album/barnett-newman{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post25
+    </id>
+    <title>
+      New Short Film: The Exhibition Shaded Into a Vast Amusement Park
+    </title>
+    <date>
+      2020-05-01
+    </date>
+    <fullText>
+      A short film in which abstract imagery is paired with a story about a singer. Available for free on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/413802700"~}https://vimeo.com/413802700{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/413802700"~}https://vimeo.com/413802700{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post24
+    </id>
+    <title>
+      New Album: Philip Guston
+    </title>
+    <date>
+      2020-04-19
+    </date>
+    <fullText>
+      {~i~}Philip Guston{~/i~} is the second entry in a trilogy of electroacoustic compositions dedicated to visual artists.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/philip-guston"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/philip-guston"~}https://importanthair.bandcamp.com/album/philip-guston{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post23
+    </id>
+    <title>
+      New Short Film: Fish &amp; Soos
+    </title>
+    <date>
+      2020-04-07
+    </date>
+    <fullText>
+      A collaborative film by Connor Kurtz and Jesus Perez which documents an eight week video exchange. Available for free on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/403931481"~}https://vimeo.com/403931481{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/403931481"~}https://vimeo.com/403931481{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post22
+    </id>
+    <title>
+      New Album: Piet Mondrian
+    </title>
+    <date>
+      2020-03-17
+    </date>
+    <fullText>
+      {~i~}Piet Mondrian{~/i~} is the first entry in a trilogy of electroacoustic compositions dedicated to visual artists.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/piet-mondrian"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/piet-mondrian"~}https://importanthair.bandcamp.com/album/piet-mondrian{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post21
+    </id>
+    <title>
+      New Album: Iodine
+    </title>
+    <date>
+      2020-02-24
+    </date>
+    <fullText>
+      {~i~}Iodine{~/i~} is a series of 100 short, sequentiel pieces which flow between various styles of experimental electronic music.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/iodine"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/iodine"~}https://importanthair.bandcamp.com/album/iodine{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post20
+    </id>
+    <title>
+      New Album: Frozen Tower of Sound
+    </title>
+    <date>
+      2020-01-27
+    </date>
+    <fullText>
+      {~i~}Frozen Tower of Sound{~/i~} is a 60-minute electronic composition constructed of several layered digital textures to create the sensation of a fictional, electronic landscape.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/frozen-tower-of-sound"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/frozen-tower-of-sound"~}https://importanthair.bandcamp.com/album/frozen-tower-of-sound{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post19
+    </id>
+    <title>
+      New Compilation: Miscellaneous Works, 2019
+    </title>
+    <date>
+      2019-12-31
+    </date>
+    <fullText>
+      {~i~}Miscellaneous Works, 2019{~/i~} collects several electronic compositions made throughout the year of 2019.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2019"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2019"~}https://importanthair.bandcamp.com/album/miscellaneous-works-2019{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post18
+    </id>
+    <title>
+      New Album: Nine Feedbacks
+    </title>
+    <date>
+      2019-11-10
+    </date>
+    <fullText>
+      {~i~}Nine Feedbacks{~/i~} is a 190-minute drone composition which flows through nine recordings of untouched electronic feedback in a randomized order. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/nine-feedbacks"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/nine-feedbacks"~}https://importanthair.bandcamp.com/album/nine-feedbacks{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post17
+    </id>
+    <title>
+      New Short Film: Appearing
+    </title>
+    <date>
+      2019-09-26
+    </date>
+    <fullText>
+      A short film which deals with the appearance and disappearance of images. Available for free on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/362465283"~}https://vimeo.com/362465283{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/362465283"~}https://vimeo.com/362465283{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post16
+    </id>
+    <title>
+      Two New Albums: You Had Better Come on Home / Organ Memories
+    </title>
+    <date>
+      2019-07-12
+    </date>
+    <fullText>
+      {~i~}You Had Better Come on Home{~/i~} is a single hour-long piece comprised of processed field recordings, sine tones and white noise. It develops an electronic drone and invites it to act as an electronic guide on a journey to, from or through one's home (be that a place, state of mind or something else). {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://rateyourmusic.com/release/album/important-hair/you-had-better-come-on-home/"~}Important Hair bandcamp{~/a~}.{~br /~}{~br /~}          {~i~}Organ Memories{~/i~} started as a series of turntable improvisations using a box of organ records. Those improvisations were then used as sound material for four 15-minute electroacoustic compositions, which can be heard here. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/organ-memories"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/you-had-better-come-on-home"~}https://importanthair.bandcamp.com/album/you-had-better-come-on-home{~/a~} / {~a target="_blank" href="https://importanthair.bandcamp.com/album/organ-memories"~}https://importanthair.bandcamp.com/album/organ-memories{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post15
+    </id>
+    <title>
+      New Short Film: A Digital Triptych
+    </title>
+    <date>
+      2019-07-08
+    </date>
+    <fullText>
+      Three nine-minute films which use structured computer algorithms to create their images. Available for free as an HQ download or on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/346842821"~}https://vimeo.com/346842821{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/346842821"~}https://vimeo.com/346842821{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post14
+    </id>
+    <title>
+      New Short Film: Vehicles in Transit
+    </title>
+    <date>
+      2019-04-17
+    </date>
+    <fullText>
+      A short film which uses vehicles and commuters to show the progress of a South Ontario winter. Available for free on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/330991240"~}https://vimeo.com/330991240{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/330991240"~}https://vimeo.com/330991240{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post13
+    </id>
+    <title>
+      New Compilation: Miscellaneous Works, 2018
+    </title>
+    <date>
+      2018-12-24
+    </date>
+    <fullText>
+      {~i~}Miscellaneous Works, 2018{~/i~} collects several electronic compositions made throughout the year of 2018.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2018"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2018"~}https://importanthair.bandcamp.com/album/miscellaneous-works-2018{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post12
+    </id>
+    <title>
+      New Short Film: Music at 5,000 Hz
+    </title>
+    <date>
+      2018-12-23
+    </date>
+    <fullText>
+      An abstract film captured on a cellphone set to music at 5,000 Hz. Available for free on Vimeo.{~br /~}{~br /~}{~a target="_blank" href="https://vimeo.com/307972346"~}https://vimeo.com/307972346{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/307972346"~}https://vimeo.com/307972346{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post11
+    </id>
+    <title>
+      New Album: G. GOULD
+    </title>
+    <date>
+      2018-09-29
+    </date>
+    <fullText>
+      {~i~}G. GOULD{~/i~} is a 45-minute composition based on a single field recording with sparse manipulations and collaging. It is a reaction to and partial recreation of James Benning's recent film {~i~}L. COHEN{~/i~}, as well as a reaction to the impact that artists like Leonard Cohen and Glenn Gould have had on Canadian culture. {~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/g-gould"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/g-gould"~}https://importanthair.bandcamp.com/album/g-gould{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post10
+    </id>
+    <title>
+      New Album: 180510.180528.180602.
+    </title>
+    <date>
+      2018-07-18
+    </date>
+    <fullText>
+      {~i~}180510.180528.180602.{~/i~} is a 60-minute reductionist electronic composition which focuses on the mutation of filtered textures over time.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/180510180528180602"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/180510180528180602"~}https://importanthair.bandcamp.com/album/180510180528180602{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post9
+    </id>
+    <title>
+      New Album: Plein Soleil
+    </title>
+    <date>
+      2018-03-30
+    </date>
+    <fullText>
+      {~i~}Plein Soleil{~/i~} is a 69-minute electronic composition, constructed exclusively from sounds extracted from the song of the same name by world's end girlfriend.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/plein-soleil"~}https://importanthair.bandcamp.com/album/plein-soleil{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post8
     </id>
     <title>
       New Blog Launches
@@ -11,7 +361,7 @@
       2018-03-13
     </date>
     <fullText>
-      Today, the Connor Kurtz Music Reviews blog has gone live. The first two reviews, of the two latest albums from Michael Pisaro, are available now.{~br /~}{~br /~}Chheck out the new blog here: {~a target="_blank" href="http://connorkurtzmusic.blogspot.ca/"~}http://connorkurtzmusic.blogspot.ca/{~/a~}
+      Today, the Connor Kurtz Music Reviews blog has gone live. The first two reviews, of the two latest albums from Michael Pisaro, are available now.{~br /~}{~br /~}Check out the new blog here: {~a target="_blank" href="http://connorkurtzmusic.blogspot.ca/"~}http://connorkurtzmusic.blogspot.ca/{~/a~}
     </fullText>
     <shortText>
       Today, the Connor Kurtz Music Reviews blog has gone live.
@@ -19,7 +369,24 @@
   </post>
   <post>
     <id>
-      post002
+      post7
+    </id>
+    <title>
+      New Compilation: Miscellaneous Works, 2017
+    </title>
+    <date>
+      2017-12-27
+    </date>
+    <fullText>
+      {~i~}Miscellaneous Works, 2017{~/i~} collects several compositions, collages, experiments and electronic improvisations made throughout the year of 2017.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2017"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2017"~}https://importanthair.bandcamp.com/album/miscellaneous-works-2017{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post6
     </id>
     <title>
       New Project: Good Old Neon
@@ -28,7 +395,7 @@
       2017-12-19
     </date>
     <fullText>
-      A new project has began between brothers Connor and Owen Kurtz. The first album, {~i~}Musik kann marschieren{~/i~}, is available now on Bachelors of Science Records.{~br /~}{~br /~}Download it for free, here: {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2"~}https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2{~/a~}
+      A new project has began between brothers Connor and Owen Kurtz. The first album, {~i~}Musik kann marschieren{~/i~}, is available now on Bachelors of Science Records.{~br /~}{~br /~}Hear it for free, here: {~a target="_blank" href="https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2"~}https://wisteriatn.bandcamp.com/album/musik-kann-marschieren-2{~/a~}
     </fullText>
     <shortText>
       A new project has began between brothers Connor and Owen Kurtz. The first album is available now.
@@ -36,7 +403,7 @@
   </post>
   <post>
     <id>
-      post001
+      post5
     </id>
     <title>
       Website Launches
@@ -49,6 +416,74 @@
     </fullText>
     <shortText>
       Today, the Connor Kurtz Music website was launched.
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post4
+    </id>
+    <title>
+      New Double Album: Lines 1 &amp; 2
+    </title>
+    <date>
+      2017-05-16
+    </date>
+    <fullText>
+      {~i~}Lines 1 &amp; 2{~/i~} includes the first two realizations of Lines, a randomized situation for sound collage, each taking its own disc. The {~i~}Lines{~/i~} system ensures a constant shift of sonic density in the realization, as well as making it so the realization is completely circular, having no beginning or ending. The first realization uses electronic noise and the second uses everyday recordings.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/lines-1-2"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/lines-1-2"~}https://importanthair.bandcamp.com/album/lines-1-2{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post3
+    </id>
+    <title>
+      New Double Album: First Snow
+    </title>
+    <date>
+      2017-03-17
+    </date>
+    <fullText>
+      {~i~}First Snow{~/i~} is the first double album by Important Hair and the debut release of compositions by Connor Kurtz. It includes {~i~}First Snow{~/i~}, an analogue synthesizer piece which is realized in an hour-long solo edit and a 20-minute trio edit, {~i~}9 Movements{~/i~}, a minimalist work for electronic keyboard, {~i~}For On Kawara{~/i~}, a tribute to the conceptual minimalist performed on three live sources of static, and {~i~}The Death of John Cage{~/i~}, an original poem which becomes the basis of a sound collage.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/first-snow"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/first-snow"~}https://importanthair.bandcamp.com/album/first-snow{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post2
+    </id>
+    <title>
+      New Compilation: Miscellaneous Works, 2016
+    </title>
+    <date>
+      2016-12-29
+    </date>
+    <fullText>
+      {~i~}Miscellaneous Works, 2016{~/i~} is the first installment in Important Hair's annual {~i~}Miscellaneous Works{~/i~} series. It includes 8 tracks, including colleges, improvisations and a composition for acoustic guitars.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2016"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2016"~}https://importanthair.bandcamp.com/album/miscellaneous-works-2016{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post1
+    </id>
+    <title>
+      New Album: You Are Crying, My Child
+    </title>
+    <date>
+      2016-12-10
+    </date>
+    <fullText>
+      {~i~}You Are Crying, My Child{~/i~} is the debut release of Connor Kurtz's Important Hair project. It is a venture into the more experimental side of analog electronic noise. The album is partially written, partially improvised and partially collaged, using lyrics extracted from Samuel Beckett's 1938 novel {~i~}Murphy.{~/i~}{~br /~}{~br /~} The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/you-are-crying-my-child"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/you-are-crying-my-child"~}https://importanthair.bandcamp.com/album/you-are-crying-my-child{~/a~}
     </shortText>
   </post>
 </newsPosts>
