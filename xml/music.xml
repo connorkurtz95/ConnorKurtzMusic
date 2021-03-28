@@ -7,6 +7,64 @@
     <releases>
       <release>
         <id>
+          B18
+        </id>
+        <title>
+          Fragments [Stereo] / Dance With Me
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2021-01-31
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Fragments [Stereo] / Dance With Me{~/i~} is a collage constructed from four years of (field, domestic, electroacoustic, etc) recordings.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/fragments-stereo-dance-with-me"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/fragments-stereo-dance-with-me
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
+          B17
+        </id>
+        <title>
+          Freezing Upright
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-11-06
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Freezing Upright{~/i~} is an improvisation using feedback electronics, analogue synthesizer and turntable. It has been processed to create a gradual slowing and freezing effect.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/freezing-upright"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/freezing-upright
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
           B16
         </id>
         <title>
@@ -447,6 +505,64 @@
       C Series
     </title>
     <releases>
+      <release>
+        <id>
+          C07
+        </id>
+        <title>
+          Miscellaneous Works, 2020
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-12-27
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          {~i~}Miscellaneous Works, 2020{~/i~} collects several electronic compositions made throughout the year of 2020.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2020"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/miscellaneous-works-2020
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
+      <release>
+        <id>
+          C06
+        </id>
+        <title>
+          The Important Hair Live Show 1
+        </title>
+        <artist>
+          Important Hair
+        </artist>
+        <date>
+          2020-11-30
+        </date>
+        <label>
+          Self-Released
+        </label>
+        <format>
+          Digital
+        </format>
+        <description>
+          A noise concert performed and streamed on November 29, 2020.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/the-important-hair-live-show-1"~}Important Hair bandcamp{~/a~}.
+        </description>
+        <link>
+          https://importanthair.bandcamp.com/album/the-important-hair-live-show-1
+        </link>
+        <creativeCommons>
+          by-nc
+        </creativeCommons>
+      </release>
       <release>
         <id>
           C05

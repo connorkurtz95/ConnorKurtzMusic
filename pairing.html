@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Connor Kurtz Music | Important Hair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon-deaf.ico" />
+    <script>
+        function pair() {
+            var txt = '';
+
+            var names = document.getElementById("unpairedList").value.split('\n');
+            var names2 = [];
+            var pairs = [];
+            document.getElementById("pairedList").innerHTML = '1';
+
+            for(var i = 0; i < names.length;i++){
+                pairs.push('');
+                names2.push(names[i]);
+            }
+            //document.getElementById("pairedList").innerHTML = '2';
+            document.getElementById("pairedList").innerHTML = '1: ' + names.length + " | " + names2.length;
+
+
+            for(var i = 0; i < names.length;i++){
+                var pair = i;
+                do {
+                    pair = Math.floor(Math.random() * (names2.length));
+                } while (names2[pair] == names[i]);
+
+                pairs[i] = names2[pair];
+
+                names2.splice(pair, 1);
+            }
+            document.getElementById("pairedList").innerHTML = '2: ' + names.length + " | " + names2.length + ' r1: ' + Math.floor(Math.random() * 5);
+
+
+            for(var i = 0; i < names.length;i++){
+                txt += names[i] + '->' + pairs[i] + '<br/>';
+            }
+            
+            document.getElementById("pairedList").innerHTML = txt;
+        }
+    </script>
+</head>
+<body id="top">
+    <div class="wrapper row1">
+        <div class="center">
+            <h2 class="heading centerThis">Pairing Tool</h2>
+            <p>Write each name on a different line and then press Pair.</p>
+            <p>If it doesn't work, refresh page &amp; try again.</p>
+            <textarea id="unpairedList" name="unpairedList" rows="20" cols="50" class="centerThis"></textarea>
+            <button type="button" onclick="pair()" class="centerThis">Pair</button>
+            <div id="pairedList" class="nospace font-x1 bold"></div>
+        </div>
+        <br />
+    </div>
+    <!-- JAVASCRIPTS -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <!-- IE9 Placeholder Support -->
+    <script src="layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+</body>
+</html>

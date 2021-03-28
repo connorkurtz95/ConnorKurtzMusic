@@ -2,6 +2,93 @@
 <newsPosts>
   <post>
     <id>
+      post33
+    </id>
+    <title>
+      New Album: Fragments [Stereo] / Dance With Me
+    </title>
+    <date>
+      2021-01-31
+    </date>
+    <fullText>
+      {~i~}Fragments [Stereo] / Dance With Me{~/i~} is a collage constructed from four years of (field, domestic, electroacoustic, etc) recordings.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/fragments-stereo-dance-with-me"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/fragments-stereo-dance-with-me"~}https://importanthair.bandcamp.com/album/fragments-stereo-dance-with-me{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post32
+    </id>
+    <title>
+      New Compilation: Miscellaneous Works, 2020
+    </title>
+    <date>
+      2020-12-30
+    </date>
+    <fullText>
+      {~i~}Miscellaneous Works, 2020{~/i~} collects several electronic compositions made throughout the year of 2020.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2020"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/miscellaneous-works-2020"~}https://importanthair.bandcamp.com/album/miscellaneous-works-2020{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post31
+    </id>
+    <title>
+      New Live Album: The Important Hair Live Show 1
+    </title>
+    <date>
+      2020-11-30
+    </date>
+    <fullText>
+      A noise concert performed and streamed on November 29, 2020.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/the-important-hair-live-show-1"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/the-important-hair-live-show-1"~}https://importanthair.bandcamp.com/album/the-important-hair-live-show-1{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post30
+    </id>
+    <title>
+      New Short Film: Applying Colours
+    </title>
+    <date>
+      2020-11-20
+    </date>
+    <fullText>
+      A short film where layers of colours are applied to a monochrome landscape, mutating it into an abstract, digital canvas. Available for free on Vimeo.
+      {~br /~}{~br /~}
+      {~a target="_blank" href="https://vimeo.com/481721725"~}https://vimeo.com/481721725{~/a~}
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://vimeo.com/481721725"~}https://vimeo.com/481721725{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
+      post29
+    </id>
+    <title>
+      New Album: Freezing Upright
+    </title>
+    <date>
+      2020-11-06
+    </date>
+    <fullText>
+          {~i~}Freezing Upright{~/i~} is an improvisation using feedback electronics, analogue synthesizer and turntable. It has been processed to create a gradual slowing and freezing effect.{~br /~}{~br /~}The album is available for free download on the {~a target="_blank" href="https://importanthair.bandcamp.com/album/freezing-upright"~}Important Hair bandcamp{~/a~}.
+    </fullText>
+    <shortText>
+      {~a target="_blank" href="https://importanthair.bandcamp.com/album/freezing-upright"~}https://importanthair.bandcamp.com/album/freezing-upright{~/a~}
+    </shortText>
+  </post>
+  <post>
+    <id>
       post28
     </id>
     <title>
