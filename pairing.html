@@ -16,6 +16,10 @@
             var pairs = [];
             document.getElementById("pairedList").innerHTML = '1';
 
+            for (var i = 0; i < names.length; i++){
+                names[i] = '@' + names[i];
+            }
+
             for(var i = 0; i < names.length;i++){
                 pairs.push('');
                 names2.push(names[i]);
